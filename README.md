@@ -10,6 +10,7 @@ Urls with parameters:
 URL: htttps://example.com?x=x&y=y
 
 echo "htttps://example.com?x=x&y=y"|paramremove
+
 cat list_urls.txt | paramremove
 
 result:
